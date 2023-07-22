@@ -1,0 +1,249 @@
+body {
+  background-color: #98fb98;
+  background-color: #91eeff;
+}
+.header-main {
+  width: 100%;
+  height: 50px;
+  background-color: #4169e1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.c-flag {
+  height: 100%;
+  width: auto;
+  border: 3px solid #4169e1;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.header-main nav ul li {
+  display: inline;
+  text-align: center;
+  padding: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.country-name {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.country-name h1 {
+  font-size: 22px;
+  font-weight: bold;
+}
+a {
+  cursor: pointer;
+}
+nav ul li :hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  transition: ease-in-out 100ms;
+}
+
+div .banner {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.banner {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  height: 350px;
+  background-image: url(.//welcome_korea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.spliter {
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+}
+.banner p {
+  padding-top: 50px;
+  padding-right: 12px;
+}
+.spliter-head {
+  width: 100%;
+  background-color: #fff;
+  height: 2px;
+}
+.spliter-bot {
+  margin-top: 5px;
+  width: 100%;
+  background-color: #fff;
+  height: 2px;
+}
+article p {
+  margin-top: 15px;
+  border: 4px solid #030303;
+  padding: 5px;
+}
+article {
+  height: fit-content;
+  background-color: #7e323237;
+  width: 50%;
+  margin: auto;
+  border: 4px soild #4169e1;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 12rem;
+  background-color: #4169e1;
+}
+.footer-info {
+  width: 100%;
+  height: calc(100% - 38px);
+  display: flex;
+  margin-top: 6px;
+  padding: 0 25%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0, 32px;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.jordan-logo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.jordan-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hotel-logo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.hotel-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  text-align: center;
+}
+.git-logo {
+  width: 25px;
+}
+.link-sec {
+  font-size: 20px;
+}
+.email-logo {
+  width: 25px;
+}
+.contact-us {
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: underline;
+}
+.contact-form {
+  margin: 5%;
+  border: 2px solid #030303;
+}
+.contact-info div {
+  padding: 4px;
+}
+textarea {
+  margin-left: 10%;
+  margin-top: 3px;
+  background-color: #fff;
+}
+.msg {
+  border: 2px solid black;
+  width: 80%;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3px;
+  height: 50px;
+}
+.buttons button {
+  border: 2px solid black;
+  color: #fff;
+  background-color: #4169e1;
+  font-size: 28px;
+  text-align: center;
+}
+input {
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.button-text {
+  padding: 7px;
+}
+.table-title {
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+}
+.cities-table {
+  margin: auto;
+  background-color: #ffffff80;
+}
+.cities-table,
+th,
+td {
+  border: 3px solid black;
+}
+.cities-table img {
+  width: 150px;
+  height: 100%;
+}
+.cities-table ul {
+  justify-content: center;
+}
+.cities-table td {
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+}
+.td-img {
+  background-color: #fff;
+}
+th {
+  background-color: #4169e1;
+}
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: auto;
+  gap: 10px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
